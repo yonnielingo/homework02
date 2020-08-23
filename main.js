@@ -19,5 +19,11 @@ $(document).ready(function () {
         //         $("#outputArea").text(data);
         //     }
         // });
+
+        //other attempt
+        $.getJSON(url)done(function(data) {
+            console.log (data) 
+            $('#output').html(data);
+        });
     });
 });
