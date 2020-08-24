@@ -11,19 +11,31 @@ $(document).ready(function () {
         var url ='https://api.giphy.com/v1/gifs/search?api_key='+ apiKey +'&q='+ searchFor +'&limit='+ limitReturn +'&offset=0&rating='+ rating +'&lang='+ defaultLang;
         //alert(url);
 
-        //api call to get images
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        //earlier attempt:
+        // api call to get images
         // $.ajax({
         //     type: "GET",
         //     url: url,
         //     success: function ( data) {
-        //         $("#outputArea").text(data);
+        //         console.log(data)
+        //         $("#outputArea").html(data);
+        //         alert(data);
         //     }
         // });
-
-        //other attempt
-        $.getJSON(url)done(function(data) {
-            console.log (data) 
-            $('#output').html(data);
-        });
     });
 });
