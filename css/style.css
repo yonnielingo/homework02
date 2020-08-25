@@ -12,6 +12,10 @@ body {
   margin: 0px;
 }
 
+#inputForm {
+  padding: 15px 0px 15px 0px;
+}
+
 #inputFormBox {
   width: 100%;
   justify-content: center;
@@ -25,21 +29,20 @@ body {
   background: rgba(172, 163, 163, 0.952);
 }
 
-#inputForm {
-  padding-top: 5px;
-}
-
 img {
-  width: 46%;
+  width: 98%;
   padding: 1%;
   float: left;
 }
 
 #outterSearchBox {
-  width: 100%;
   padding: 2px 0px 2px 0px;
 }
 
 #searchBox {
-  width: 100%;
+  width: 75%;
+}
+
+#submitButtonBox {
+  width: 20%;
 }

@@ -30,6 +30,14 @@ body {
 //     position: sticky;
 // }
 
+input  {
+
+}
+
+#inputForm {
+    padding: 15px 0px 15px 0px;
+}
+
 #inputFormBox {
     @include fullWidth;
     position: fixed;
@@ -41,20 +49,20 @@ body {
     background: $primary_3;
 }
 
-#inputForm {
-    padding-top: 5px;
-}
-
 img {
-    width: 46%;
+    width: 98%;
     padding: 1%;
     float: left;
 }
 #outterSearchBox {
-    width: 100%;
     padding: 2px 0px 2px 0px;
 }
 
-#searchBox {
-    width: 100%;
+// #searchBox {
+//     width: 75%;
+// }
+#submitButtonBox {
+    width: 20%;
 }
+
+@media only screen and (min-width: 850px)
