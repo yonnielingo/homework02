@@ -12,11 +12,24 @@
 
 <body>
     <div>
-        </label><input type="text" id="searchBox" name="searchBox">
-        <input type="number" id="returnQty" name="returnQty">
+        <form id="inputForm">
+            <label for="searchBox">What would you like to find?</label>
+            <input type="text" id="searchBox" name="searchBox">
+            <label for="returnQty">Qty</label>
+            <input type="number" id="returnQty" name="returnQty">
+            <label for="raitings">Raiting?</label>
+            <select name="raitings" id="raitings">
+                <option value="g">G</option>
+                <option value="pg">PG</option>
+                <option value="pg-13">PG-13</option>
+                <option value="r">R</option>
+            </select>
+            <label for="submitSearch"></label>
+            <input type="button" id="submitSearch" name="submitSearch" value="Submit">
+        </form>
     </div>
 
-    <div><button id="submitSearch">Search</button></div>
+    <!-- <div><button id="submitSearch">Search</button></div> -->
     <div id="outputArea"></div>
 </body>
 
