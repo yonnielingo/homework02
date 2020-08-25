@@ -1,4 +1,8 @@
 $primary_1: black;
 $primary_2: white;
-$primary_3: Grey;
-$primary_4: orange;
+$primary_3: rgba(172, 163, 163, 0.952);
+
+body {
+    background-color: $primary_1;
+    color: $primary_2;
+}
