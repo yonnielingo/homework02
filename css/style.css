@@ -1,4 +1,45 @@
+.anyBox {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
 body {
   background-color: black;
   color: white;
+  padding: 0px;
+  margin: 0px;
+}
+
+#inputFormBox {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  box-shadow: 0 0 6px #000;
+  color: #fff;
+  background: rgba(172, 163, 163, 0.952);
+}
+
+#inputForm {
+  padding-top: 5px;
+}
+
+img {
+  width: 46%;
+  padding: 1%;
+  float: left;
+}
+
+#outterSearchBox {
+  width: 100%;
+  padding: 2px 0px 2px 0px;
+}
+
+#searchBox {
+  width: 100%;
 }

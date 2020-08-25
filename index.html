@@ -12,12 +12,14 @@
 </head>
 
 <body>
-    <div>
+    <div id="inputFormBox">
         <form id="inputForm">
-            <label for="searchBox">What would you like to find?</label>
-            <input type="text" id="searchBox" name="searchBox">
+            <div id="outterSearchBox">
+            <label for="searchBox"></label>
+            <input type="text" id="searchBox" name="searchBox" placeholder="Enter Search Keyword">
+            </div>
             <label for="returnQty">Qty</label>
-            <input type="number" id="returnQty" name="returnQty">
+            <input type="number" id="returnQty" name="returnQty" value="5" min="1" max="77">
             <label for="raitings">Raiting?</label>
             <select name="raitings" id="raitings">
                 <option value="g">G</option>
@@ -28,10 +30,8 @@
             <label for="submitSearch"></label>
             <input type="button" id="submitSearch" name="submitSearch" value="Submit">
         </form>
-    </div>
-
-    <!-- <div><button id="submitSearch">Search</button></div> -->
-    <div id="outputArea"></div>
+    </div>  
+    <div class="gridContainer" id="outputArea"></div>
 </body>
 
 </html>

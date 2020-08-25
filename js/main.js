@@ -19,7 +19,7 @@ $(document).ready(function () {
                 $.each(data.data, function (key, obj) {
                     var ibArray = obj.images.downsized_still.url;
                     console.log('url= ' + ibArray);
-                    newLine += '<img class="gifs" src="' + ibArray + '"></div>'
+                    newLine += '<img class="gifs" src="' + ibArray + '">'
                 });
                 $('#outputArea').html(newLine);
             },
