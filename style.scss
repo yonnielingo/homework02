@@ -70,15 +70,4 @@ p {
         padding: 1%;
         float: left;
     }
-    #inputFormBox {
-        @include fullWidth;
-        position: fixed;
-        left: 0;
-        top: 0;
-        display: flex;
-        box-shadow: 0 0 6px #000;
-        color: #fff;
-        background: $primary_3;
-    }
-
 }

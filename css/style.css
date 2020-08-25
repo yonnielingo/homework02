@@ -58,16 +58,4 @@ p {
     padding: 1%;
     float: left;
   }
-  #inputFormBox {
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    left: 0;
-    top: 0;
-    display: flex;
-    box-shadow: 0 0 6px #000;
-    color: #fff;
-    background: rgba(172, 163, 163, 0.952);
-  }
 }
