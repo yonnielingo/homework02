@@ -35,14 +35,22 @@ img {
   float: left;
 }
 
-#outterSearchBox {
-  padding: 2px 0px 2px 0px;
+input {
+  padding-top: 5px;
 }
 
-#searchBox {
-  width: 75%;
+@media only screen and (min-width: 321px) {
+  img {
+    width: 46%;
+    padding: 1%;
+    float: left;
+  }
 }
 
-#submitButtonBox {
-  width: 20%;
+@media only screen and (min-width: 801px) {
+  img {
+    width: 23%;
+    padding: 1%;
+    float: left;
+  }
 }
